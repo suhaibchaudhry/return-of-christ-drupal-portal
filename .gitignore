@@ -4,3 +4,33 @@ sites/*/settings*.php
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially create don remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Sass Files
+*.map
+.sass-cache
+sites/*/themes/*/css
+
+# Apple Files
+.DS_STORE
+.DS_Store
+._.*
+.AppleDouble
+.LSOverride
