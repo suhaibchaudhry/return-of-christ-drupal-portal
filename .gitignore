@@ -26,7 +26,7 @@ Temporary Items
 # Sass Files
 *.map
 .sass-cache
-sites/*/themes/*/css
+sites/*/themes/*/css/*.css
 
 # Apple Files
 .DS_STORE
