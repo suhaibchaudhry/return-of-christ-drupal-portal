@@ -46,6 +46,7 @@ regions[footer2_second] = Footer2 Second
 regions[logo] = Logo
 regions[hashtag] = Hashtag
 regions[social_media] = Social Media
+regions[poster] = Poster
 
 ; ZONES
 
@@ -59,6 +60,9 @@ zones[postscript] = Postscript
 zones[footer] = Footer first
 zones[footer2] = Footer second
 
+; OPTIONAL ZONES
+
+zones[poster] = Poster
 
 ; OPTIONAL STYLESHEETS
 
