@@ -448,17 +448,52 @@ body {
 }
 
 /* Top Menu */
+#section-header {
+	background: #673717;
+	color: #fff;
 
-#block-menu-menu-top-menu {
-	ul.menu {
-		li.leaf {
-			list-style-type: none;
-			list-style-image: none;
-			float: left;
-			
-			a {
-				
+	.region {
+		.block {
+			p {
+				margin: 0;
+				line-height: 41px;
 			}
+		}
+	}
+
+	#block-menu-menu-top-menu {
+		ul.menu {
+			margin: 0;
+			line-height: 41px;
+
+			li.leaf {
+				list-style-type: none;
+				list-style-image: none;
+				float: left;
+				padding: 0 10px;
+				
+				a {
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+/* Front Page Poster */
+
+section#section-content {
+	#zone-content-wrapper {
+		display: none;
+	}
+
+	#zone-poster-wrapper {
+		#region-poster {
+			background: url("../images/j2j_poster.png");
+			background-size: contain;
+			background-position: center center;
+			background-repeat: no-repeat;
+			height: 95vh;
 		}
 	}
 }
