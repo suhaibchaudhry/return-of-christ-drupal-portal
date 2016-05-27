@@ -470,7 +470,8 @@ body {
 				list-style-type: none;
 				list-style-image: none;
 				float: left;
-				padding: 0 10px;
+				padding: 0 5px;
+				margin: 0;
 				
 				a {
 					color: #fff;
@@ -481,19 +482,20 @@ body {
 }
 
 /* Front Page Poster */
-
-section#section-content {
-	#zone-content-wrapper {
-		display: none;
-	}
-
-	#zone-poster-wrapper {
-		#region-poster {
-			background: url("../images/j2j_poster.png");
-			background-size: contain;
-			background-position: center center;
-			background-repeat: no-repeat;
-			height: 95vh;
+.front {
+	section#section-content {
+		#zone-content-wrapper {
+			display: none;
+		}
+	
+		#zone-poster-wrapper {
+			#region-poster {
+				background: url("../images/j2j_poster.png");
+				background-size: contain;
+				background-position: center center;
+				background-repeat: no-repeat;
+				height: 95vh;
+			}
 		}
 	}
 }
