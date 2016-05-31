@@ -1,6 +1,6 @@
 (function ($) {
   // Handle user toolbar when user is admin and have admin toolbar enabled.
-  Drupal.behaviors.returnofchrist.com_theme_default_behavior = {
+  Drupal.behaviors.pinnacle_parallax = {
         firstLoad: true,
     attach: function(context, settings) {
                 if(this.firstLoad) {
