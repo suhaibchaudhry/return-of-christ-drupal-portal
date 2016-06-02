@@ -501,12 +501,8 @@ body {
 }
 
 .view-team-members {
-        .views-row:nth-child(2) {
-                .views-field-field-team-member-picture {
-                        img {
-                                height: 210px;
-                        }
-                }
+        .views-row:nth-child(1) {
+		margin: 0 0 80px;
         }
   .views-field-field-team-member-name {
     font-size: 20px;
@@ -545,4 +541,151 @@ body {
 #zone-content-wrapper, #zone-content {
 	background-color: #1f0801;
 	color: #fff;
+}
+
+.donate-section {
+	margin-bottom: 50px;
+		.gifts {
+			a.gift {
+				.donation-amount {
+					font-size: 20px;
+					font-weight: bold;
+					margin-bottom: 0;
+                		}	
+
+			.donation-subtitle {
+				font-size: 15px;
+				font-weight: bold;
+			}
+
+			.donation-body {
+				line-height: 18px;
+				font-size: 13px;
+			}
+
+			padding: 10px;
+			background: #57463B;
+			//font-size: 25px;
+			color: #fff;
+			border-radius: 5px;
+			margin: 5px;
+			display: block;
+			float: left;
+			//min-width: 15%;
+			width: 32% !important;
+			//text-align: center;
+			box-sizing: border-box;
+			height: 250px;
+
+			&:hover {
+				color: #000;
+			}
+		}
+      
+		a.active {
+			background: #fff;
+			color: #000;
+		}
+	}
+}
+
+.information-section {
+	.input {
+		width: 80%;
+		margin-right: 2%;
+		height: 15px;
+		float: left;
+		font-size: 25px;
+		padding: 10px;
+		position: relative;
+		background: rgba(255, 255, 255, 0.07);
+		margin: 10px;
+		
+		.placeholder, .textarea {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			padding-left: 10px;
+			white-space: nowrap;
+			
+			br {
+				display: none;
+			}
+		}
+
+		.placeholder {
+			z-index: 9;
+			color: #868686;
+			font-style: italic;
+		}
+		
+		.textarea {
+			z-index: 10;
+			color: #fff;
+		}
+	}
+}
+
+.section-content {
+	.zone-content {
+		background: none;
+		color: #fff;
+
+		.region-content {
+			margin-top: 50px;
+		
+			h1.title {
+				border-bottom: 1px solid #fff;
+				margin-bottom: 0;
+			}
+		}
+
+		aside.region-sidebar-second {
+			margin-top: 150px;
+			background-color: #392111;
+
+			.region-inner {
+				padding: 10px;
+			}
+
+			.about-us-side-picture {
+				width: 100%;
+				height: 480px;
+				background: url("../images/book.png");
+				background-repeat: no-repeat;
+				background-size: cover;
+				box-shadow: 0px 0px 50px #000;
+				background-position: bottom;
+			}
+		}
+			
+		.heading {
+			display: block;
+			clear: both;
+			font-size: 20px;
+			line-height: 60px;
+		}
+
+		a.donate-button {
+			padding: 10px 0;
+			background: #57463B;
+			font-size: 25px;
+			color: #fff;
+			border-radius: 5px;
+			margin-right: 5px;
+			display: block;
+			min-width: 10%;
+			text-align: center;
+			float: left;
+			margin-top: 20px;
+			width: 100%;
+	
+			&:hover {
+				background: #fff;
+				color: #000;
+			}
+		}
+	}
 }
